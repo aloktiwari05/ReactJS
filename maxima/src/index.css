@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body{
+  background-image: url("https://www.pngmagic.com/webp_images/light-blue-background-landing-page_LBCE.webp");
+}
+
+#CardSection::-webkit-scrollbar{
+  display:none
+}
