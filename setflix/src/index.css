@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+body{
+    background-color: black;
+}
+
+/* global.css */
+.number-outline {
+  -webkit-text-stroke: 3px white;
+}
+
+#scroll::-webkit-scrollbar{
+  display: none;
+}

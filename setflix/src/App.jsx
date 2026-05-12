@@ -1,12 +1,12 @@
-import Header from "./components/Header.jsx";
-import Center from "./components/Center.jsx";
 import Footer from "./components/Footer.jsx";
+import Section1 from "./components/Section1.jsx";
+import Section2 from "./components/Section2.jsx";
 
 const App = () => {
   return (
-    <div className="flex flex-col w-full h-screen bg-black overflow-hidden">
-      <Header />
-      <Center />
+    <div className="w-full h-screen bg-black overflow-x-hidden">
+      <Section1 />
+      <Section2 />
       <Footer />
     </div>
   )
